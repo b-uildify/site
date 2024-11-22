@@ -263,8 +263,6 @@ footer .social-icons a {
 @media (max-width: 576px) {
     .project-grid {
         grid-template-columns: 1fr; /* 1 column on mobile */
-        padding: 20px;
-        margin: 20px;
     }
 
     #projects {
