@@ -145,7 +145,6 @@ main p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
-    padding:20px;
     margin: 20px;
 }
 .project-card {
@@ -155,7 +154,7 @@ main p {
     transition: transform 0.3s ease;
     text-align: center;
     background-color: var(--secondary-color);
-   /* padding: 20px;*/
+    padding: 20px;
 }
 .project-card:hover {
     transform: translateY(-5px);
