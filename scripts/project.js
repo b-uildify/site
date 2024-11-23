@@ -257,7 +257,7 @@ function displayProjects(projectArray) {
         card.innerHTML = `
             <img src="${project.imageUrl}" alt="${project.projectName}" loading="lazy">
             <h2>${project.projectName}</h2>
-            <p>Details: ${project.description}</p>
+            <p> ${project.description}</p>
             
         `;
         container.appendChild(card);
